@@ -27,7 +27,7 @@ def audio_text():
 
 while True:
     print("Choose input mode \n 1.Text \n 2.Audio")
-    choice=input("Enter your choice")
+    choice=input("Enter your choice: ")
     if choice=="1":
         user_input=input("Enter What You to know:  ")
     elif choice=="2":
