@@ -29,7 +29,7 @@ st.divider()
 
 if option == "Check ATS Score":
 
-    st.header("Check ATS - Backed by Gemini")
+    st.header("Check ATS")
 
     st.write(
         "Upload your resume [PDF] and optionally provide a job description."
