@@ -93,29 +93,6 @@ streamlit run interface.py
 
 The application will open in your browser.
 
-🔄 How It Works
-                 Upload Resume
-                       │
-                       ▼
-                  PDF Extraction
-                       │
-                       ▼
-                  Resume Text
-                       │
-             ┌─────────┴─────────┐
-             │                   │
-             ▼                   ▼
-        ATS Score          Resume Analyzer
-             │                   │
-             ▼                   ▼
-       Optional JD             Gemini
-             │                   │
-             └─────────┬─────────┘
-                       ▼
-                  AI Analysis
-                       │
-                       ▼
-                  Results
 🔐 API Key
 
 This project uses the Google Gemini API for AI-powered resume analysis.
